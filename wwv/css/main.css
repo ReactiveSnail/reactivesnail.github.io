@@ -25,7 +25,7 @@ body {
 }
 
 .header-title {
-    background-color: #16161f7a;
+    background-color: rgba(22, 22, 31, 0.47843137254901963);;
     height: auto;
     width: 34em;
     display: flex;
