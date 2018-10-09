@@ -1,1 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,900&subset=cyrillic-ext');
 
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url(../img/ReactiveSnail_WEB_bg.jpg) no-repeat center;
+    background-size: cover; /* Масштабируем фон */
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 7px solid #ffffff7a;
+    height: 700px;
+    margin-bottom: 35px;
+}
+
+.header-title {
+    background-color: #16161f7a;
+    height: auto;
+    width: 34em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 7px solid #ffffff7a;}
+
+.header-title h1 {
+    color: aliceblue;
+    font-size: 3em;
+    margin: 0.67em 0;
+}
+.header-title p {
+    color: aliceblue;
+    font-size: 1.7em;
+    margin-bottom: 3em;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 555px;
+    /*background: url(../www/img/bg.jpg) no-repeat center; */
+    background-color: #16161f7a;
+    border: 7px solid #ffffff7a;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+h2 {
+    font-size: 1.7em;
+    font-weight: 500;
+    color: snow;
+    text-align: center;
+}
+
+p {
+    font-size: 1.4em;
+    font-weight: 100;
+    color: whitesmoke;
+    text-align: center;
+
+}
+a {
+    font-size: 1.7em;
+    color: #0fff17;
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 92px;
+    background-color:#16161fde;
+    margin-top: 35px;
+    border-top: 7px solid #ffffff7a;
+}
+
+/* Кнопка "вверх" */
+
+div.scrollup {
+    position: fixed;
+    /* фиксированная позиция */
+    color: #fff;
+    /* цвет текста */
+    background-color: #16161f99;
+    /* цвет заднего фона */
+    right: 20px;
+    /* расстояние от правого края */
+    bottom: 15%;
+    /* расстояние от нижнего края */
+    padding: 4px 10px;
+    /* отступы до содержимого блока */
+    font-size: 20px;
+    /* размер шрифта (иконки) */
+    border-top-left-radius: 4px;
+    /* скругление верхнего левого угла */
+    border-top-right-radius: 4px;
+    /* скругление верхнего правого угла */
+    cursor: pointer;
+    /* форма курсора */
+    display: none;
+    /* не отображать элемент */
+    text-align: center;
+    /*выравнивание содержимого элемента по центру */
+}
+
+div.scrollup:hover {
+    background-color: #16161fcc;
+    /* цвет заднего фона при наведении */
+}
