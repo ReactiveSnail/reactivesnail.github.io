@@ -98,7 +98,7 @@ a {
     justify-content: space-around;
     align-items: center;
     height: 92px;
-    background-color:#16161fde;
+    background-color:rgba(22, 22, 31, 0.8705882352941177);
     margin-top: 35px;
     border-top: 7px solid rgba(255, 255, 255, 0.47843137254901963);
 }
