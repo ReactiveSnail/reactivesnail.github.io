@@ -19,19 +19,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 7px solid #ffffff7a;
+    border-bottom: 7px solid rgba(255, 255, 255, 0.47843137254901963);
     height: 700px;
     margin-bottom: 35px;
 }
 
 .header-title {
-    background-color: rgba(22, 22, 31, 0.47843137254901963);;
+    background-color: rgba(22, 22, 31, 0.47843137254901963);
     height: auto;
     width: 34em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 7px solid #ffffff7a;}
+    border: 7px solid rgba(255, 255, 255, 0.47843137254901963);}
 
 .header-title h1 {
     color: aliceblue;
@@ -63,8 +63,8 @@ body {
     align-items: center;
     max-width: 555px;
     /*background: url(../www/img/bg.jpg) no-repeat center; */
-    background-color: #16161f7a;
-    border: 7px solid #ffffff7a;
+    background-color: rgba(22, 22, 31, 0.47843137254901963);
+    border: 7px solid rgba(255, 255, 255, 0.47843137254901963);
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 30px;
@@ -100,7 +100,7 @@ a {
     height: 92px;
     background-color:#16161fde;
     margin-top: 35px;
-    border-top: 7px solid #ffffff7a;
+    border-top: 7px solid rgba(255, 255, 255, 0.47843137254901963);
 }
 
 /* Кнопка "вверх" */
@@ -110,7 +110,7 @@ div.scrollup {
     /* фиксированная позиция */
     color: #fff;
     /* цвет текста */
-    background-color: #16161f99;
+    background-color: rgba(22, 22, 31, 0.6);
     /* цвет заднего фона */
     right: 20px;
     /* расстояние от правого края */
@@ -133,6 +133,6 @@ div.scrollup {
 }
 
 div.scrollup:hover {
-    background-color: #16161fcc;
+    background-color: rgba(22, 22, 31, 0.9);
     /* цвет заднего фона при наведении */
 }
