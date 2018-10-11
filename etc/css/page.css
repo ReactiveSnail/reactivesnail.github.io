@@ -7,6 +7,7 @@ body {
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     background-color: #f7f7f7;
+    align-items: center;
 }
 
 .container {
@@ -32,7 +33,7 @@ body {
 .header-title a {
     font-weight: 500;
     color: snow;
-    font-size: 3em;
+    font-size: 28px;
     margin: 0.67em 0;
     text-decoration: none;
 }
@@ -47,7 +48,6 @@ body {
 }
 
 .content {
-	flex: 1 0 auto;
     display: flex;
     display: -webkit-flex; /* Safari */
     flex-direction: column;
@@ -58,11 +58,14 @@ body {
 }
 
 .content img {
+	padding: 5px 5px 5px 5px;
+}
+
+.content p {
 	width: 100%;
 }
 
 .footer {
-	flex: 0 0 auto;
     display: flex;
     display: -webkit-flex; /* Safari */
     justify-content: center;
