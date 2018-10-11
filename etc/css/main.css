@@ -153,3 +153,31 @@ div.scrollup:hover {
     background-color: rgba(22, 22, 31, 0.9);
     /* цвет заднего фона при наведении */
 }
+
+/*Медиа запросы */
+@media only screen and (max-width: 480px) {
+    .header {
+    height: 320px;
+    }
+    .header-title {
+    width: 18em;
+    }
+    .header-title h1 {
+    font-size: 1.5em;
+    }
+    .header-title p {
+    font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (min-width: 1024px) {
+    
+}
+
+@media only screen and (min-width: 1140px) {
+    
+}
