@@ -170,6 +170,26 @@ div.scrollup:hover {
     }
 }
 
+/* iPhone 2G-4S in landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
+    body {
+    background: url(../img/Crony_prtrt_mob.jpg) no-repeat center;
+    background-size: cover; /* Масштабируем фон */
+    background-attachment: fixed;
+    }
+
+}
+
+/* iPhone 2G-4S in portrait */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
+    body {
+    background: url(../img/Crony_lnd_mob.jpg) no-repeat center;
+    background-size: cover; /* Масштабируем фон */
+    background-attachment: fixed;
+    }
+
+   } 
+
 @media only screen and (max-width: 768px) {
     
 }
