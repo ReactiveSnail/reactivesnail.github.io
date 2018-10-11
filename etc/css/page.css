@@ -18,7 +18,7 @@ body {
 }
 
 .header {
-    background-color:#58587dfa;
+    background-color:rgb(88, 88, 125);
     display: flex;
     display: -webkit-flex; /* Safari */
     flex-direction: column;
