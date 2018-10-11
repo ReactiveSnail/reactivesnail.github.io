@@ -11,7 +11,6 @@ body {
 }
 
 .container {
-     height: 100%;
     display: flex;
     display: -webkit-flex; /* Safari */
     flex-direction: column;
@@ -33,7 +32,7 @@ body {
 .header-title a {
     font-weight: 500;
     color: snow;
-    font-size: 28px;
+    font-size: 42px;
     margin: 0.67em 0;
     text-decoration: none;
 }
@@ -44,7 +43,6 @@ body {
     flex-direction: column;
     -webkit-flex-direction: column; /* Safari */
     align-items: center;
-    height: 100%;
 }
 
 .content {
@@ -111,4 +109,17 @@ div.scrollup {
 div.scrollup:hover {
     background-color: rgba(22, 22, 31, 0.9);
     /* цвет заднего фона при наведении */
+}
+
+/*Медиа запросы */
+@media only screen and (max-width: 480px) {
+    .header {
+    height: 124px;
+    }
+    .header-title a {
+    font-size: 1.5em;
+    }
+    h1 {
+    font-size: 1.7em;
+	}
 }
