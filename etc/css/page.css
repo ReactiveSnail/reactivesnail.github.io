@@ -58,11 +58,11 @@ body {
 }
 
 .content img {
-	padding: 5px 5px 5px 5px;
+	width: 100%;
 }
 
 .content p {
-	width: 100%;
+	padding: 5px 5px 5px 5px;
 }
 
 .footer {
