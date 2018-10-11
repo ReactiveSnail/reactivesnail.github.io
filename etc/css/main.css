@@ -10,14 +10,19 @@ body {
 
 .container {
     display: flex;
+    display: -webkit-flex; /* Safari */
     flex-direction: column;
+    -webkit-flex-direction: column; /* Safari */
 }
 
 
 .header {
     justify-content: center;
+    -webkit-justify-content: center; /* Safari */
     display: flex;
+    display: -webkit-flex; /* Safari */
     flex-direction: column;
+    -webkit-flex-direction: column; /* Safari */
     align-items: center;
     border-bottom: 7px solid rgba(255, 255, 255, 0.47843137254901963);
     height: 700px;
@@ -29,7 +34,9 @@ body {
     height: auto;
     width: 34em;
     display: flex;
+    display: -webkit-flex; /* Safari */
     flex-direction: column;
+    -webkit-flex-direction: column; /* Safari */
     align-items: center;
     border: 7px solid rgba(255, 255, 255, 0.47843137254901963);}
 
@@ -51,15 +58,23 @@ body {
 
 .content {
     display: flex;
+    display: -webkit-flex; /* Safari */
+    flex-direction: row;
+    -webkit-flex-direction: row; /* Safari */
     flex-wrap: wrap;
+    -webkit-flex-wrap: wrap; /* Safari */
     justify-content: center;
+    -webkit-justify-content: center; /* Safari */
     align-items: center;
 }
 
 .cont-1 {
     display: flex;
+    display: -webkit-flex; /* Safari */
     flex-direction: column;
+    -webkit-flex-direction: column; /* Safari */
     justify-content: space-around;
+    -webkit-justify-content: space-around; /* Safari */
     align-items: center;
     max-width: 555px;
     /*background: url(../www/img/bg.jpg) no-repeat center; */
@@ -95,7 +110,9 @@ a {
 
 .footer {
     display: flex;
-    justify-content: space-around;
+    display: -webkit-flex; /* Safari */
+    justify-content: center;
+    -webkit-justify-content: center; /* Safari */
     align-items: center;
     height: 92px;
     background-color:rgba(22, 22, 31, 0.8705882352941177);
